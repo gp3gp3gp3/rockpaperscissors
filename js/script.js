@@ -5,5 +5,7 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-
-
+$('#shoot').click(() => {
+  const input = $('#input').val()
+  $('#userChoice').text(input)
+})
